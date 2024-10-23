@@ -50,6 +50,7 @@ TEST(C_LIST, BasicTests)
 
     free_tree(t);
     free(tmp);
+    free(tmp2);
 };
 
 
